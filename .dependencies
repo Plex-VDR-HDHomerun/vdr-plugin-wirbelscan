@@ -1,0 +1,363 @@
+common.o: common.c /usr/local/src/vdr-2.4.0/include/vdr/plugin.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/skins.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/epg.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/section.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/util.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/headers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/keys.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/recording.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/timers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/themes.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h dvb_wrapper.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h extended_frontend.h \
+ tlist.h menusetup.h /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h scanner.h scanfilter.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/receiver.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/descriptor.h si_ext.h \
+ statemachine.h /usr/local/src/vdr-2.4.0/include/vdr/tools.h
+countries.o: countries.c countries.h scan.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h dvb_wrapper.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h extended_frontend.h tlist.h
+dvb_wrapper.o: dvb_wrapper.c \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h dvb_wrapper.h \
+ extended_frontend.h tlist.h
+menusetup.o: menusetup.c /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/skins.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/epg.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/section.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/util.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/headers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/keys.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/recording.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/timers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/themes.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h menusetup.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h scanner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h dvb_wrapper.h \
+ extended_frontend.h scanfilter.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/receiver.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/descriptor.h si_ext.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h tlist.h statemachine.h \
+ satellites.h countries.h wirbelscan.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/plugin.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h
+satellites.o: satellites.c scan.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h dvb_wrapper.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h extended_frontend.h tlist.h \
+ satellites.h satellites.dat
+scanfilter.o: scanfilter.c \
+ /usr/local/src/vdr-2.4.0/include/libsi/section.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/util.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/headers.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/descriptor.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h scanfilter.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/receiver.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h si_ext.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h dvb_wrapper.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h extended_frontend.h \
+ tlist.h menusetup.h /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/skins.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/epg.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/keys.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/recording.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/timers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/themes.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h scanner.h statemachine.h
+scanner.o: scanner.c /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eitscan.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/svdrp.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h scanner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h dvb_wrapper.h \
+ extended_frontend.h scanfilter.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/util.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/headers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/receiver.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/descriptor.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h si_ext.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h tlist.h statemachine.h \
+ menusetup.h /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/skins.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/epg.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/section.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/keys.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/recording.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/timers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/themes.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h satellites.h countries.h \
+ wirbelscan_services.h /usr/local/src/vdr-2.4.0/include/vdr/channels.h
+statemachine.o: statemachine.c \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h statemachine.h \
+ scanfilter.h /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/util.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/headers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/receiver.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/descriptor.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h si_ext.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h dvb_wrapper.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h extended_frontend.h \
+ tlist.h menusetup.h /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/skins.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/epg.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/section.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/keys.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/recording.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/timers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/themes.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h scanner.h
+wirbelscan.o: wirbelscan.c /usr/local/src/vdr-2.4.0/include/vdr/plugin.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/device.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/channels.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/config.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/font.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sources.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ci.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/ringbuffer.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbsubtitle.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osd.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/eit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/nit.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sdt.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/positioner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/remux.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/sections.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/spu.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/skins.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/epg.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/section.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/util.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/headers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/keys.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/recording.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/timers.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/themes.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/i18n.h wirbelscan.h \
+ wirbelscan_services.h menusetup.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/menuitems.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/osdbase.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/thread.h scanner.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/dvbdevice.h dvb_wrapper.h \
+ extended_frontend.h scanfilter.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/si.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/receiver.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/filter.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/pat.h \
+ /usr/local/src/vdr-2.4.0/include/libsi/descriptor.h si_ext.h common.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/diseqc.h tlist.h statemachine.h \
+ /usr/local/src/vdr-2.4.0/include/vdr/tools.h countries.h satellites.h
